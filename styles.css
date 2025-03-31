@@ -1,13 +1,13 @@
-/* Flexbox for Horizontal Navigation */
+
 .nav-links {
-    display: flex;  /* Makes the nav horizontal */
-    justify-content: center;  /* Centers the links */
+    display: flex;  
+    justify-content: center;  
     list-style: none;
-    gap: 20px; /* Adds spacing between links */
+    gap: 20px; 
 }
 
 .nav-links li {
-    display: inline-block; /* Ensures all items stay in a line */
+    display: inline-block; 
 }
 
 .nav-links a {
