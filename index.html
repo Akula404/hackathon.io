@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>My Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#interests">Interests</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm a passionate <strong>graphic designer, web developer, and aspiring data scientist</strong> with a deep love for blending creativity with technology. My journey started with <strong>graphic design</strong>, then evolved into <strong>web development and currently passionate about AI-driven data science</strong>. I love being a part of persons solving complex problems and building innovative solutions.</p>
+        </div>
+        <div class="about-image">
+            <img src="assets\static\image.png" alt="" class="profile-img">
+        </div>
+    </section>
+
+    <!-- Educational Background -->
+    <section id="education">
+        <div class="container">
+            <h2>Educational Background</h2>
+            <p><p>My background is in <strong>Chemical Engineering</strong>, complemented by additional training in <strong>graphic design and web development with Django</strong>. I enjoy blending technical expertise with creativity to develop impactful solutions.</p>
+            .<p>I’m always exploring new technologies and expanding my skill set in <strong>data-driven solutions</strong>, with a keen interest in applying innovative approaches to real-world challenges.</p>
+        </p>
+            <a href="assets\Oyanda resume.pdf" download class="btn">Download CV</a>
+        </div>
+    </section>
+
+    <!-- Programming Languages -->
+    <section id="skills">
+        <div class="container">
+            <h2>Programming Languages</h2>
+            <ul class="skills-list">
+                <li>Python</li>
+                <li>HTML & CSS</li>
+                <li>SQL</li>
+                <li>Django</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Interests -->
+    <section id="interests">
+        <div class="container">
+            <h2>My Interests</h2>
+            <p>When I’m not immersed in problem-solving and creative projects, you’ll probably find me watching documentaries like those of Sir David Attenborough. His iconic voice and storytelling bring the beauty of nature to life in the series. I also enjoy swimming, exploring new tech trends, or experimenting with design ideas. 
+                I have a strong desire for understanding how things work—whether it's optimizing systems, coding up something cool, or figuring out the perfect playlist for a road trip. 
+                I also enjoy good food, spontaneous adventures, and deep conversations about anything from AI to the mysteries of the ocean!</p>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Energy drink</h3>
+                <p>Developing a brand from a logo for a drink called Nare which is super energetic and an ultimate boost for a fast paced vibrant lifestyle.
+                    Packed with natural ingredients and essential vitamins, it's designed to keep you energized, sharp and ready for anything life throws your way.
+                    Whether you're hitting the gym, tackling a busy workday, or just need a pick-me-up, Nare is your go-to drink for that extra kick.
+                </p>
+                <a href="https://www.behance.net/gallery/213452687/Nare-Energy-drink" class="btn">View Project</a>
+    </section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="container">
+        <h2>Get in Touch</h2>
+        <p>Have a project in mind or just want to connect? Drop me a message, and I’ll get back to you as soon as possible.</p>
+        
+        <form action="submit-form.php" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="https://www.linkedin.com/in/carlos-oyanda-675b03280?trk=contact-info" target="_blank">LinkedIn</a></li>
+            <li><a href="https://github.com/Akula404" target="_blank">GitHub</a></li>
+        </ul>
+    </div>
+</footer>
+</body>
+</html>
